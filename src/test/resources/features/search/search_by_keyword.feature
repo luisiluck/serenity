@@ -11,3 +11,6 @@ Feature: Search by keyword
     Given Sergey is researching things on the internet
     When he looks up "red"
     Then he should see information about "red"
+
+  Scenario: Searching for 'blue'
+    Given Sergey is researching things on GooglePage
